@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gradient Background</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+    <h1>Background Generator</h1>
+    <input class="color1" type="color" name="color1" value="#00ff00">
+    <span id="color1-value">#00ff00</span>
+    <input class="color2" type="color" name="color2" value="#ff0000">
+    <span id="color2-value">#ff0000</span>
+    <input class="color3" type="color" name="color3" value="#0000ff" style="display: none;">
+    <span id="color3-value" style="display: none;">#0000ff</span>
+    <label>
+        <input type="checkbox" id="toggle-three-color"> Use three colors
+    </label>
+    <select id="direction" class="direction-select">
+        <option value="to right">To Right</option>
+        <option value="to left">To Left</option>
+        <option value="to bottom">To Bottom</option>
+        <option value="to top">To Top</option>
+        <option value="to bottom right">To Bottom Right</option>
+        <option value="to bottom left">To Bottom Left</option>
+        <option value="to top right">To Top Right</option>
+        <option value="to top left">To Top Left</option>
+    </select>
+    <button id="random">Random</button>
+    <h2>Current CSS Background</h2>
+    <h3></h3>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
